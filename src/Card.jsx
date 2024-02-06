@@ -5,7 +5,7 @@ export default function Card() {
     <div className="card">
         <img className="card-image" src={profilePic} alt="Profile Picture" />
         <h2 className="card-title">Emotional Naruto</h2>
-        <p>Flashbacks reveal Naruto's painful orphaned and outcast childhood.</p>
+        <p className="card-text">Flashbacks reveal Naruto's painful orphaned and outcast childhood.</p>
     </div>
   )
 }
